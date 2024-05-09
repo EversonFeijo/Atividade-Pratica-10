@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Happy';
+    src: url(font/Happy-Dance.ttf);
+}
+@font-face {
+    font-family: 'Letter';
+    src: url(font/Letter\ Cute.otf);
+}
+@font-face {
+    font-family: 'Hey';
+    src: url(font/Hey\ Elsie\ Cute\ italic.ttf);
+}
+
+
+body{
+    background-image: url(img/doce.jpg);
+}
+h1, h2, p{
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    font-family: Letter;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+ }
+ 
+ 
+ .menu{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(215, 6, 252, 0.401);
+    color: ;
+    font-weight: 600;
+
+ }
+
+ .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .item p {
+    display: inline-block;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-size: 20px;
+ }
+ .doce, .bebidas{
+    width: 75%;
+    text-align: left;
+ }
+ .preço{
+    width: 25%;
+    text-align: right;
+ }
+.italico{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1px;
+}
+
+.barra{
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(104, 104, 109);
+}
+a{
+    font-weight: 600;
+    color:rgb(16, 3, 80);
+}
+a:hover{
+    color: chartreuse;
+    background-color: black;
+    border-radius: 30%;
+}
+.nome{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: right;
+    height: 0.5px;
+}
