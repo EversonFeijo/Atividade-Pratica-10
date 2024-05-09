@@ -36,7 +36,6 @@ h1{
     padding-left: 40px;
     padding-right: 40px;
     background-color: rgba(215, 6, 252, 0.401);
-    color: ;
     font-weight: 600;
 
  }
@@ -87,4 +86,7 @@ a:hover{
     padding-bottom: 0;
     text-align: right;
     height: 0.5px;
+}
+.item:hover{
+    border-bottom: 1px solid black;
 }
